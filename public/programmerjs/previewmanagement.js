@@ -1,5 +1,4 @@
 /* global $ */
-/* global Paysage */
 
 (function () {
   'use strict';
