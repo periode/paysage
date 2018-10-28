@@ -12,7 +12,7 @@
       previewIsOn = false;
       $('#previewisoff').hide();
       $('#previewison').show();
-      $('#viewerframe').attr('src', '/playground/' + $('#playgroundid').val() + Paysage.CODE_FRAGMENT_IDENTIFIER);
+      $('#viewerframe').attr('src', 'about:blank');
     } else {
       previewIsOn = true;
       $('#viewerframe').attr('src', '/playground/' + $('#playgroundid').val() + '#');
